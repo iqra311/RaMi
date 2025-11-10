@@ -1,15 +1,20 @@
+# ingest.py
+
 import os
 import argparse
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
-from langchain_community.embeddings import HuggingFaceBgeEmbeddings
+# The HuggingFaceBgeEmbeddings class is a wrapper, we'll use a more generic one for broader model support
+from langchain_community.embeddings import HuggingFaceEmbeddings
 
 print("--- Script starting ---")
 
 # --- Configuration ---
 DB_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "db", "chroma_db")
-EMBEDDING_MODEL_NAME = "BAAI/bge-small-en-v1.5" 
+# --- NEW MODEL ---
+# This model is small, fast, and has good multilingual capabilities.
+EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2" 
 
 def main(doc_path, collection_name):
     print(f"[main function] Starting ingestion process for document: {doc_path}")
@@ -26,17 +31,18 @@ def main(doc_path, collection_name):
 
     # 2. Split the document into chunks
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=1000, 
-        chunk_overlap=200
+        chunk_size=800, # Smaller chunk size can be beneficial for smaller models
+        chunk_overlap=150
     )
     chunks = text_splitter.split_documents(documents)
     print(f"[main function] Split document into {len(chunks)} chunks.")
 
     # 3. Initialize the embedding model
     print(f"[main function] Loading embedding model: {EMBEDDING_MODEL_NAME}")
+    # Use the more generic HuggingFaceEmbeddings class
     model_kwargs = {'device': 'cpu'} 
-    encode_kwargs = {'normalize_embeddings': True}
-    embeddings = HuggingFaceBgeEmbeddings(
+    encode_kwargs = {'normalize_embeddings': True} # This is important for MiniLM
+    embeddings = HuggingFaceEmbeddings(
         model_name=EMBEDDING_MODEL_NAME,
         model_kwargs=model_kwargs,
         encode_kwargs=encode_kwargs
@@ -45,7 +51,6 @@ def main(doc_path, collection_name):
 
     # 4. Create and persist the vector store
     print(f"[main function] Creating vector store in: {DB_DIR}")
-    # This will create the collection, generate embeddings, and save to disk.
     vectorstore = Chroma.from_documents(
         documents=chunks,
         embedding=embeddings,
@@ -58,8 +63,6 @@ def main(doc_path, collection_name):
     print("-" * 50)
 
 if __name__ == "__main__":
-    print("--- main__ block ---")
-    
     parser = argparse.ArgumentParser(
         description="Ingest a document into a ChromaDB collection."
     )
@@ -75,13 +78,7 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
     
-    print(f"--- Parsed arguments: doc_path='{args.doc_path}', collection_name='{args.collection_name}' ---")
-
     if not os.path.exists(args.doc_path):
-        print("🛑 CRITICAL ERROR: Document path does not exist!")
-        print(f"   Your provided path: '{args.doc_path}'")
-        print(f"   Current working directory: '{os.getcwd()}'")
-        print("   Please check for typos or incorrect path.")
+        print(f"🛑 CRITICAL ERROR: Document path '{args.doc_path}' does not exist!")
     else:
-        print("--- Document path exists. Calling main function... ---")
         main(args.doc_path, args.collection_name)
