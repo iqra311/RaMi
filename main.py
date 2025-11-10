@@ -15,6 +15,7 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers.string import StrOutputParser
 import markdown2
 from langchain_core.messages import AIMessage, HumanMessage
+from langchain_community.embeddings import HuggingFaceEmbeddings
 
 # --- Load Environment Variables ---
 load_dotenv()
@@ -25,7 +26,7 @@ if not GROQ_API_KEY:
     raise ValueError("GROQ_API_KEY not found in .env file")
 
 DB_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "db", "chroma_db")
-EMBEDDING_MODEL_NAME = "BAAI/bge-small-en-v1.5"
+EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
 # ---  FastAPI App ---
 app = FastAPI()
