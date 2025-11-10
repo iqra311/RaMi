@@ -1,0 +1,389 @@
+✅ QRetail Group – Relationship Manager Knowledge Base (Master) 
+
+(Retail Conglomerate — Corrected Version) 
+
+Client Master & Relationship Summary 
+
+Client Name: QRetail Group 
+Industry & Sector: Retail, Mall Operations, E-Commerce, F&B, Logistics 
+Country of Incorporation: Qatar 
+Global Presence: GCC, Turkey, India, UK 
+Ownership Type: Privately Held Retail Conglomerate 
+Relationship Segment: Corporate Banking 
+Client Tier: Platinum (Strategic Client) 
+Relationship Start Date: Jun-2018 
+Group Structure: Retail, malls, logistics, e-commerce, F&B subsidiaries 
+Corporate Structure Type: Parent 
+Client Profitability Tier: High 
+
+Contacts 
+
+RM: Ahmed Al-Saadi | +974-5587-9011 | Limit: QAR 50M 
+Backup RM: Fatima Hassan | +974-5598-7720 | Limit: QAR 10M 
+Treasury Director: Mohammad Rashid | +974-5588-6612 | treasury@qretail.qa 
+CFO: Khalid Al-Thani | +974-5574-6630 | finance@qretail.qa 
+Finance Team: accounts@qretail.qa 
+Preferred Communication: Email + RM visits; urgent via phone 
+Preferred Meeting Time: Weekdays 10AM–2PM 
+Visit Frequency: Quarterly strategic review 
+CRM ID: QBG-CLT-0045 
+
+Shape 
+
+Financial Overview & Ratios 
+
+Metric 
+
+Value 
+
+Annual Revenue 
+
+QAR 4.2B 
+
+Operating Profit 
+
+QAR 480M 
+
+Operating Margin 
+
+11.4% 
+
+EBITDA Margin 
+
+14.2% 
+
+Cash Flow Stability 
+
+Strong, recurring mall revenue 
+
+Liquidity Score 
+
+Strong 
+
+Deposits 
+
+QAR 365M 
+
+Breakdown 
+
+QAR 110M Op AC 
+
+Treasury Volume 
+
+QAR ~80M/month 
+
+Digital Transaction Share 
+
+89% 
+
+Debt/EBITDA 
+
+2.1x 
+
+DSCR 
+
+2.5x 
+
+Interest Coverage 
+
+4.7x 
+
+Status 
+
+All covenants compliant ✅ 
+
+Shape 
+
+Recent Financial Transactions (Last 5) 
+
+Date 
+
+Description 
+
+Amount 
+
+Type 
+
+Channel 
+
+08-Nov-2025 
+
+POS settlement sweep 
+
+QAR 26M 
+
+Credit 
+
+Host-to-Host 
+
+08-Nov-2025 
+
+Supplier import LC retirement 
+
+QAR 18M 
+
+Debit 
+
+Trade 
+
+07-Nov-2025 
+
+E-commerce collection settlement 
+
+QAR 14M 
+
+Credit 
+
+API 
+
+07-Nov-2025 
+
+USD→QAR FX Conversion 
+
+QAR 8M 
+
+Credit 
+
+Treasury 
+
+06-Nov-2025 
+
+Monthly payroll 
+
+QAR 9.6M 
+
+Debit 
+
+Bulk/HR API 
+
+Shape 
+
+Credit & Trade Exposure 
+
+Loan Sanctioned: QAR 950M 
+Availed: QAR 710M 
+Repaid: QAR 140M 
+Outstanding: QAR 570M 
+Loan End Date: 2030 
+Interest: QMRLR + 225 bps 
+Next Installment: QAR 5.4M (Jan-2026) 
+Status: On-track 
+Repayment: Quarterly 
+Collateral: Malls, receivables assignment, inventory charge 
+LC/BG Limits: QAR 450M | Utilized: QAR 260M (58%) 
+LC Tenor: 30–90 days (import retail goods & fixtures) 
+
+Shape 
+
+Card Program 
+
+Corporate Limit: QAR 1.4M | Utilized: 64% 
+Products: Executive & procurement cards 
+Usage: Travel, procurement, mall events ops 
+
+Shape 
+
+Loan Facility Details 
+
+Facility Type: Term Loan + Revolving Working Capital 
+Term Loan: QAR 350M (new mall + distribution center) 
+Revolver/WC: QAR 600M (inventory + e-commerce seasonal cycles) 
+Disbursement: Mar-2023 
+Reset Frequency: Quarterly 
+
+Shape 
+
+Treasury & Hedging Profile 
+
+FX Spread Pricing: 4–8 bps 
+Treasury Setup: API collection & payout automation 
+Hedging Focus: USD import hedges (Asia sourcing) 
+Preferred Instruments: Forward contracts 
+Commodity Hedge: Not applicable 
+Treasury API: Live (ERP integration) 
+
+ 
+
+Client Outlook & Strategy 
+
+Store Expansion: +12 stores, +1 mall by 2027 
+E-Commerce Growth: Cross-border fulfillment + marketplace onboarding 
+Logistics: New DC in Qatar Logistics Park 
+Sustainability: Solar-powered warehouses, efficient cooling for malls 
+Priorities: Supply chain efficiency, digital payments, loyalty analytics 
+Competitors: LuLu, Carrefour, Al-Meera, Landmark Group 
+
+ 
+
+Relationship History 
+
+Tenure: 9 years 
+Last Meeting: 08-Nov-2025 – POS settlement automation review 
+Prior: 01-Nov-2025 – Supply chain finance pitch 
+Feedback: Very positive 
+Pain Points: Inventory cycle spikes, FX fluctuations on imports 
+Service Tickets (90 days): 2 resolved 
+NPS Score: 9.6/10 
+
+ 
+
+Cross-Sell & Upsell Strategy 
+
+Supply chain financing 
+
+Duty-free remittance partnership 
+
+FX booking automation 
+
+Mall-tenant financing program 
+
+Co-branded cards / loyalty fintech 
+Next Action: E-com marketplace escrow + QRail BNPL partner proposal 
+
+ 
+
+Revenue to Bank 
+
+Wallet Share: 63% 
+Annual Income: ~QAR 34M 
+Breakdown: 
+
+Interest: QAR 19M 
+
+FX: QAR 4.2M 
+
+Trade & LC: QAR 2.8M 
+
+Cash Mgmt & Digital: QAR 8M 
+
+ 
+
+Risk & Compliance 
+
+KYC Due: 10-Feb-2026 
+Last Credit Review: Oct-2025 | Next: Oct-2026 
+FATCA/CRS: Compliant 
+Beneficial Ownership: Family-owned holding company 
+Next KYC Docs: FY24 FS, updated BR, UBO declaration 
+
+ 
+
+Banking Operations 
+
+ERP Integration: SAP | Treasury APIs Live 
+Cash Sweep: Daily 3:30PM | Target QAR 25M 
+Payment Cut-off: QAR 1PM / USD 2:30PM 
+
+ 
+
+AI Scoring 
+
+Health Score: 93/100 
+Opportunity: 88% 
+Exit Risk: Low (7%) 
+Propensity: Supply chain + FX + cards 
+
+ 
+
+Alerts & Signals 
+
+⚠️ Term Deposit maturity: 20-Dec-2025 
+📎 Seasonal inventory finance cycle Feb-Mar 
+📅 Strategic review: 12-Dec-2025 
+
+ 
+
+Products & Channels 
+
+Loans: TL + WC 
+Treasury: FX, collections, payouts 
+Trade: LCs, shipping guarantees 
+Cash Mgmt: Payroll, e-com sweep, POS transactions 
+Cards: Corporate + procurement 
+Digital: Corporate portal + APIs 
+
+ 
+
+Operational Context 
+
+Import Markets: China, India, Turkey, UAE 
+Employees: 7,800 
+Key Sites: Doha Festival City HQ, Lusail Mall, Warehouse-QEZ 
+POS Terminals: ~5,200 
+E-Com Share: 21% & growing 
+
+ 
+
+Hedge Summary 
+
+FX Hedges: USD/QAR mix 
+Hedge Ratio: 60% of rolling import book 
+MTM: QAR +9.4M 
+
+ 
+
+Subsidiaries 
+
+QRetail Malls – QAR 1.9B rev 
+
+QRetail Supermarkets – QAR 1.4B rev 
+
+QRetail E-Commerce – QAR 580M rev 
+
+QRetail Logistics & Warehousing – QAR 240M rev 
+
+QRetail F&B & Franchise – QAR 80M rev 
+
+ 
+
+CRM Tags 
+
+#Retail #MallOps #ECommerce #SupplyChain #HighValue #DigitalFirst 
+
+ 
+
+Gen-AI Pitch Book Notes 
+
+3-Line Intro 
+QRetail is one of Qatar’s largest private retail & mall groups with strong digital payments, e-commerce, and supply-chain capabilities. The group is expanding regionally with data-driven store & mall operations supported by modern ERP and API treasury systems. 
+Bank partnership focus: supply chain finance, FX risk management, digital collections, and mall tenant lending programs. 
+
+Pitch Angles 
+
+E-com escrow & marketplace financing 
+
+Import FX hedge automation 
+
+Dynamic working capital lines 
+
+Co-branded consumer cards + loyalty AI 
+
+Data-driven merchant lending (tenants) 
+
+ 
+
+Escalation Matrix 
+
+Service: RM → Backup RM → Branch Manager 
+Credit: RM → Credit Manager → Head Corporate Banking 
+Treasury: RM → Treasury Director 
+
+ 
+
+Documents 
+
+FS FY24: On file (Mar-2025) 
+BR: Valid 
+KYC Docs: Valid till Feb-2026 
+Credit Approval: Oct-2025 
+
+ 
+
+KB Governance 
+
+Version: 1.1 
+Last Updated: 08-Nov-2025 
+Refresh: Quarterly 
+Next: Jan-2026 
+
+ 

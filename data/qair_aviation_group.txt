@@ -1,0 +1,377 @@
+QAir Aviation Group – Relationship Manager Knowledge Base (Master) 
+
+Client Master & Relationship Summary 
+
+Client Name: QAir Aviation Group 
+
+Industry & Sector: Aviation / Airline / Cargo 
+
+Country of Incorporation: Qatar 
+
+Global Presence: GCC, India, UK, Europe 
+
+Ownership Type: State‑backed Enterprise 
+
+Relationship Segment: Corporate Banking  
+
+Client Tier: Gold (Strategic Client) 
+
+Relationship Start Date: Jan 2019 
+
+Group Structure: Parent with airline, cargo & maintenance subsidiaries 
+
+Corporate Structure Type: Parent 
+
+Client Profitability Tier: High 
+
+RM: Ahmed Al‑Saadi  | Phone: +974‑5551‑2211 | Approval limit: QAR 10M 
+
+Backup RM: Fatima Hassan | Phone: +974‑5552‑3322 | Approval limit: QAR 5M 
+
+Treasury Head: Omar Siddiqui | Phone: +974‑5558‑7770 | omar.s@qair.qa 
+
+CFO: Rana Al‑Harbi | Phone: +974‑5559‑8881 | 
+
+Finance AP Team: payments@qair.qa 
+
+Documentation Preference: PDF + executive summary 
+
+Preferred Communication: Email & RM visits; emergencies via RM phone 
+
+Preferred Meeting Time: Weekdays, 10AM–2PM 
+
+Visit Frequency: Quarterly + strategic reviews 
+
+CRM Reference ID: QBG‑CLT‑0012 
+
+Financial Overview & Ratios 
+
+Annual Revenue: QAR 4.8B 
+
+Operating Profit: QAR 620M 
+
+Operating Margin: 12.9% 
+
+EBITDA Margin: 15.2% 
+
+Cash Flow Stability: Stable 
+
+Liquidity Score: Strong 
+
+Deposits: QAR 135M 
+
+Operating Account: QAR 78M (Ref: *1234) 
+
+Payroll Account: QAR 12M (Ref: *5678) 
+
+USD Treasury Account: $14.5M (Ref: *9012) 
+
+Term Deposit: QAR 45M (Maturity: 15‑Dec‑2025) 
+
+Treasury Volume (avg monthly): QAR 210M 
+
+Digital Transaction Share: 68% 
+
+Debt Service Coverage Ratio: 1.8x (covenant >1.5x) 
+
+Debt/EBITDA: 3.8x (covenant <4.5x) 
+
+Interest Coverage: 5.2x 
+
+Current Ratio: 1.4x 
+
+Status: All covenants compliant ✅ 
+
+Recent Financial Transactions (Last 10) 
+
+2025‑11‑08 | IATA BSP settlement | QAR 56.4M | Credit | SWIFT 
+
+2025‑11‑08 | Fuel hedge settlement | QAR 9.2M | Debit | Treasury 
+
+2025‑11‑07 | Aircraft lease | QAR 32M | Debit | SWIFT 
+
+2025‑11‑07 | FX conversion USD→QAR | QAR 21.9M | Credit | Treasury 
+
+2025‑11‑06 | Payroll run | QAR 11.4M | Debit | Bulk File/API 
+
+2025‑11‑05 | Cargo vendor payment | QAR 4.1M | Debit | SWIFT 
+
+Credit & Trade Exposure 
+
+Loan Sanctioned: QAR 520M 
+
+Availed: QAR 420M 
+
+Repaid: QAR 140M 
+
+Outstanding: QAR 280M 
+
+Loan End Date: Mar‑2030 
+
+Interest: QMRLR + 200 bps (current 4.25%) 
+
+Interest Paid YTD: QAR 18.4M 
+
+Next Installment: QAR 9.2M (Dec 2025) 
+
+Status: On-track 
+
+Repayment: Quarterly 
+
+Collateral: Mortgage on 3 aircraft + QAR 50M cash collateral 
+
+LC/BG Active Limit: QAR 150M | Utilized: QAR 85M (56%) 
+
+LC Avg Tenor: 90–180 days 
+
+Card Program 
+
+Corporate Limit: QAR 1.5M | Used: QAR 910K (61%) 
+
+Card Products: 
+
+• QBG Black Corporate Card — Fee QAR 2,000 | FX Fee 1.5% 
+
+• QBG Crew Travel Card — No fee | FX Fee 0.5% 
+
+Usage Pattern: High travel/crew expenses 
+
+Loan Facility Details 
+
+Facility Type: Term Loan + Revolving Credit Facility 
+
+Term Loan: QAR 350M (aircraft financing) 
+
+RCF: QAR 170M (working capital) 
+
+Disbursement Date: March 2023 
+
+Reset Frequency: Quarterly 
+
+ 
+
+Treasury & Hedging Profile 
+
+FX Spread Pricing: 8–12 bps (Tier‑3 Corporate pricing) 
+
+Preferred Instruments: Collars, swaps 
+
+Real‑time Treasury API: Enabled 
+
+Client Outlook & Strategy 
+
+Fleet Expansion: +8 aircraft in 2026 
+
+ESG: Exploring SAF financing & carbon reduction roadmap 
+
+Strategic Priorities: Fuel risk mgmt, fleet finance efficiency, sustainability 
+
+Competitors: HSBC, Standard Chartered 
+
+Market Wallet Share: QNB 58% | HSBC 24% | Mashreq 18% 
+
+Relationship History & Engagement 
+
+Relationship Tenure: 6 years 8 months 
+
+Last Meeting: 08‑Nov‑2025 (Treasury hedging review) — Positive alignment 
+
+Previous Meeting: 01‑Nov‑2025 (API payroll) — Stable, positive feedback 
+
+RM Sentiment: Strong partnership, responsive & proactive client 
+
+Pain Points: Fuel volatility, FX exposure, rising fleet costs 
+
+Service Tickets (90 days): 4 — all resolved 
+
+Client Feedback Score: 9/10 
+
+Recent Interactions & Engagement Log 
+
+2025-11-08 | RM: Ahmed Al‑Saadi | Treasury hedging advisory + liquidity update | Client aligned for ESG hedging expansion, follow-up booked 
+
+2025-11-01 | Backup RM: Fatima Hassan | API payroll integration support review | No issues, client appreciation 
+
+ 
+
+Cross-Sell Opportunities & Upsell Strategy 
+
+Core Cross-Sell: 
+
+• ESG Fleet Financing — Fleet upgrade & emissions reduction 
+
+• Multi-currency & fuel hedging package -- High FX exposure 
+
+• Crew & corporate travel cards 
+
+• Airport merchant POS -- Aviation vendor ecosystem 
+
+Upsell / Repricing Options: 
+
+• Treasury advisory retainer program 
+
+• Derivative pricing optimization -- High treasury flows 
+
+• Preferential FX pricing tier upgrade 
+
+• Premium travel card tier upgrade for crew 
+
+• SAF (Sustainable Aviation Fuel) financing facility 
+
+• AI-driven treasury insight subscription 
+
+Next Action: FX + ESG bundle pitch 
+
+Warm Leads: Travel cards, CO2 efficiency financing 
+
+ 
+
+Revenue to Bank 
+
+Estimated Wallet Share: 58% 
+
+Annual Income to Bank: QAR 22.6M 
+
+Breakdown: 
+
+• Interest Income: QAR 16.4M 
+
+• FX Income: QAR 4.8M 
+
+• Commission / LC Fees: QAR 1.4M 
+
+Risk & Compliance 
+
+KYC Due: 15‑Jan‑2026 
+
+Last Credit Review: Oct‑2025 | Next Due: Oct‑2026 
+
+FATCA / CRS: Compliant 
+
+Beneficial Ownership: Govt‑linked corporate SPV 
+
+KYC Docs Needed (next cycle): FY2025 audited FS, updated BR, shareholder registry 
+
+Process Owner: Compliance Officer Sarah Ahmed 
+
+Banking Operations 
+
+ERP: Integrated | API payroll & treasury live 
+
+Cash Sweep: Daily @ 4 PM | Target QAR 5M 
+
+Payment Cut‑off: QAR 1:00 PM | USD 2:30 PM 
+
+AI Scoring 
+
+Health Score: 88/100 
+
+Opportunity Score: 82% 
+
+Exit Risk: Low (12%) 
+
+Propensity to Buy: FX, ESG loans, hedging 
+
+ 
+
+Alerts & Proactive Signals 
+
+KYC in 68 days 
+
+Term deposit maturity: 15‑Dec‑2025 
+
+Quarterly review: 15‑Dec‑2025 
+
+Next loan installment: QAR 9.2M — Dec‑2025 
+
+Banking Products & Channels 
+
+Loans: Aircraft Finance, RCF 
+
+Treasury: FX hedging, Fuel hedging, Forward contracts 
+
+Trade: LCs, Bank Guarantees 
+
+Cash Management: Payroll, Bulk payments, Sweep accounts 
+
+Cards: Corporate & Crew Cards 
+
+Digital Channels: Corporate portal, Treasury portal 
+
+ERP/API Integration: Yes – payroll/bulk upload 
+
+Operational Context 
+
+Fleet Size: 45 aircraft (32 passenger, 13 cargo) 
+
+Employees: 3,200 
+
+Network: 85 destinations | 42 countries 
+
+Hub: Hamad International Airport, Doha 
+
+Hedge Book Summary 
+
+FX Hedges: USD 45M (avg 8 months maturity) 
+
+Fuel Hedging: 12,000 MT (6‑month forward) 
+
+MTM Position: QAR 2.3M positive 
+
+Hedge Ratio: 65% of exposure 
+
+Subsidiaries 
+
+QAir Passenger Airlines – QAR 3.2B revenue 
+
+QAir Cargo – QAR 1.1B revenue 
+
+QAir Maintenance – QAR 0.5B revenue 
+
+ 
+
+CRM Tags 
+
+#HighLiquidity #FXExposure #StrategicClient #Aviation #Sustainability #TreasuryActive 
+
+Gen‑AI Pitch Book Notes 
+
+3‑Line Intro: 
+
+QAir is a state‑backed aviation group with high FX exposure, active hedging, and fleet expansion plans. 
+
+Strong liquidity, API digital adoption, and ESG ambitions position QAir as a strategic growth partner. 
+
+Priority areas include fuel risk, green financing, and treasury modernization. 
+
+Pitch Angles: ESG + FX + Fleet Financing + API Treasury 
+
+Escalation Matrix 
+
+Service: RM → Backup RM → Branch Manager 
+
+Credit: RM → Credit Manager → Head of Corporate Banking 
+
+Treasury: Direct to Treasury Head (Omar Siddiqui) 
+
+Document Repository 
+
+FY 2024 audited FS: on file (Mar 2025) 
+
+Board Resolution: Valid 
+
+KYC Docs: Valid till Jan‑2026 
+
+Credit Approval: Valid (reviewed Oct‑2025) 
+
+ 
+
+KB Governance 
+
+Version: 1.0 
+
+Last Updated: 08‑Nov‑2025 
+
+Refresh Frequency: Quarterly 
+
+Next Refresh: Jan‑2026 

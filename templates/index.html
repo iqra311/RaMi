@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RaMi</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>RaMi</h1>
+            
+            <div class="controls-container">
+                <div class="client-selector-container">
+                    <label for="client-selector">Select Client:</label>
+                    <select id="client-selector">
+                        {% if clients %}
+                            {% for client in clients %}
+                                <option value="{{ client.id }}">{{ client.name }}</option>
+                            {% endfor %}
+                        {% else %}
+                            <option value="" disabled>No clients found</option>
+                        {% endif %}
+                    </select>
+                </div>
+                <button id="refresh-button" title="Start New Session">🔄</button>
+            </div>
+
+            <p class="session-info">Session ID: <span id="session-id"></span></p>
+        </header>
+
+        <div class="chat-box" id="chat-box">
+        </div>
+
+        <form id="chat-form" class="chat-input-area">
+            <input type="text" id="user-input" placeholder="Ask a question..." autocomplete="off" required>
+            <button type="submit" id="send-button">Send</button>
+        </form>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

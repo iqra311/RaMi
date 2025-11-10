@@ -1,0 +1,438 @@
+# Combined Client Relationship Knowledge Base (Master File)
+
+This document contains a comprehensive knowledge base for four key corporate clients: QAir Aviation Group, QEnergia Global Energy, QLogistics Group, and QRetail Group. Each client profile is structured uniformly to allow for easy parsing, querying, and comparison.
+
+---
+
+## QAir Aviation Group
+
+### Client Master & Relationship Summary
+- **Client Name:** QAir Aviation Group
+- **Industry & Sector:** Aviation / Airline / Cargo
+- **Country of Incorporation:** Qatar
+- **Global Presence:** GCC, India, UK, Europe
+- **Ownership Type:** State-backed Enterprise
+- **Relationship Segment:** Corporate Banking
+- **Client Tier:** Gold (Strategic Client)
+- **Relationship Start Date:** Jan 2019
+- **Group Structure:** Parent with airline, cargo & maintenance subsidiaries
+- **Corporate Structure Type:** Parent
+- **Client Profitability Tier:** High
+- **CRM Reference ID:** QBG-CLT-0012
+
+### Key Contacts & Preferences
+- **RM:** Ahmed Al-Saadi | Phone: +974-5551-2211 | Approval limit: QAR 10M
+- **Backup RM:** Fatima Hassan | Phone: +974-5552-3322 | Approval limit: QAR 5M
+- **Treasury Head:** Omar Siddiqui | Phone: +974-5558-7770 | omar.s@qair.qa
+- **CFO:** Rana Al-Harbi | Phone: +974-5559-8881
+- **Finance AP Team:** payments@qair.qa
+- **Documentation Preference:** PDF + executive summary
+- **Preferred Communication:** Email & RM visits; emergencies via RM phone
+- **Preferred Meeting Time:** Weekdays, 10AM–2PM
+- **Visit Frequency:** Quarterly + strategic reviews
+
+### Financial Overview & Ratios
+- **Annual Revenue:** QAR 4.8B
+- **Operating Profit:** QAR 620M
+- **Operating Margin:** 12.9%
+- **EBITDA Margin:** 15.2%
+- **Cash Flow Stability:** Stable
+- **Liquidity Score:** Strong
+- **Deposits:** QAR 135M
+  - **Operating Account:** QAR 78M (Ref: *1234)
+  - **Payroll Account:** QAR 12M (Ref: *5678)
+  - **USD Treasury Account:** $14.5M (Ref: *9012)
+  - **Term Deposit:** QAR 45M (Maturity: 15-Dec-2025)
+- **Treasury Volume (avg monthly):** QAR 210M
+- **Digital Transaction Share:** 68%
+- **Debt Service Coverage Ratio:** 1.8x (covenant >1.5x)
+- **Debt/EBITDA:** 3.8x (covenant <4.5x)
+- **Interest Coverage:** 5.2x
+- **Current Ratio:** 1.4x
+- **Covenant Status:** All covenants compliant ✅
+
+### Recent Financial Transactions
+| Date       | Description             | Amount   | Type   | Channel       |
+|------------|-------------------------|----------|--------|---------------|
+| 2025-11-08 | IATA BSP settlement     | QAR 56.4M| Credit | SWIFT         |
+| 2025-11-08 | Fuel hedge settlement   | QAR 9.2M | Debit  | Treasury      |
+| 2025-11-07 | Aircraft lease          | QAR 32M  | Debit  | SWIFT         |
+| 2025-11-07 | FX conversion USD→QAR   | QAR 21.9M| Credit | Treasury      |
+| 2025-11-06 | Payroll run             | QAR 11.4M| Debit  | Bulk File/API |
+| 2025-11-05 | Cargo vendor payment    | QAR 4.1M | Debit  | SWIFT         |
+
+### Credit, Trade & Loan Exposure
+- **Loan Sanctioned:** QAR 520M
+- **Availed:** QAR 420M
+- **Outstanding:** QAR 280M
+- **Loan End Date:** Mar-2030
+- **Interest:** QMRLR + 200 bps (current 4.25%)
+- **Next Installment:** QAR 9.2M (Dec 2025)
+- **Repayment:** Quarterly
+- **Status:** On-track
+- **Collateral:** Mortgage on 3 aircraft + QAR 50M cash collateral
+- **LC/BG Active Limit:** QAR 150M | Utilized: QAR 85M (56%)
+- **LC Avg Tenor:** 90–180 days
+- **Facility Type:** Term Loan (QAR 350M) + Revolving Credit Facility (QAR 170M)
+
+### Card Program
+- **Corporate Limit:** QAR 1.5M | Used: QAR 910K (61%)
+- **Card Products:** QBG Black Corporate Card, QBG Crew Travel Card
+- **Usage Pattern:** High travel/crew expenses
+
+### Client Outlook & Strategy
+- **Strategic Priorities:** Fuel risk mgmt, fleet finance efficiency, sustainability
+- **Fleet Expansion:** +8 aircraft in 2026
+- **ESG Focus:** Exploring SAF financing & carbon reduction roadmap
+- **Bank Competitors:** HSBC, Standard Chartered
+- **Market Wallet Share:** QNB 58% | HSBC 24% | Mashreq 18%
+
+### Cross-Sell & Upsell Strategy
+- **Core Opportunities:** ESG Fleet Financing, Multi-currency & fuel hedging, Crew & corporate travel cards
+- **Upsell Options:** Treasury advisory retainer, SAF financing facility, AI-driven treasury insight subscription
+- **Next Action:** FX + ESG bundle pitch
+
+### Revenue to Bank
+- **Estimated Wallet Share:** 58%
+- **Annual Income to Bank:** QAR 22.6M
+| Component             | Income     |
+|-----------------------|------------|
+| Interest Income       | QAR 16.4M  |
+| FX Income             | QAR 4.8M   |
+| Commission / LC Fees  | QAR 1.4M   |
+
+### Risk, Compliance & AI Scoring
+- **KYC Due:** 15-Jan-2026
+- **Last Credit Review:** Oct-2025
+- **FATCA / CRS:** Compliant
+- **AI Health Score:** 88/100
+- **AI Opportunity Score:** 82%
+- **AI Exit Risk:** Low (12%)
+
+### Operational Context
+- **Fleet Size:** 45 aircraft (32 passenger, 13 cargo)
+- **Employees:** 3,200
+- **Network:** 85 destinations | 42 countries
+- **Subsidiaries:** QAir Passenger Airlines, QAir Cargo, QAir Maintenance
+
+---
+
+## QEnergia Global Energy
+
+### Client Master & Relationship Summary
+- **Client Name:** QEnergia Global Energy
+- **Industry & Sector:** LNG, Oil & Gas, Power Generation
+- **Country of Incorporation:** Qatar
+- **Global Presence:** GCC, Africa, Asia, UK, Europe, US
+- **Ownership Type:** State-backed Strategic Enterprise
+- **Relationship Segment:** Corporate Banking
+- **Client Tier:** Platinum (Strategic Client)
+- **Relationship Start Date:** Feb 2016
+- **Group Structure:** LNG, power, trading & renewables subsidiaries
+- **Corporate Structure Type:** Parent
+- **Client Profitability Tier:** High
+- **CRM Reference ID:** QBG-CLT-0045
+
+### Key Contacts & Preferences
+- **RM:** Ahmed Al-Saadi | Phone: +974-5551-2211 | Approval limit: QAR 50M
+- **Backup RM:** Fatima Hassan | Phone: +974-5552-3322 | Approval limit: QAR 10M
+- **Treasury Director:** Mohammad Rashid | Phone: +974-5588-6612 | hedging@qenergia.qa
+- **CFO:** Khalid Al-Thani | Phone: +974-5577-9910 | khalid.t@qenergia.qa
+- **Finance AP Team:** payments@qenergia.qa
+- **Documentation Preference:** PDF + executive summary
+- **Preferred Communication:** Email & RM visits; emergencies via RM phone
+- **Preferred Meeting Time:** Weekdays, 10AM–2PM
+- **Visit Frequency:** Quarterly + strategic reviews
+
+### Financial Overview & Ratios
+- **Annual Revenue:** QAR 32.5B
+- **Operating Profit:** QAR 6.4B
+- **Operating Margin:** 19.7%
+- **EBITDA Margin:** 31.5%
+- **Cash Flow Stability:** Stable
+- **Liquidity Score:** Strong
+- **Deposits:** QAR 1.82B
+  - **Operating Account:** QAR 920M
+  - **Project Revenue Account:** QAR 560M
+  - **USD Trading Account:** $210M
+  - **Term Deposit:** QAR 340M (Maturity: 20-Dec-2025)
+- **Treasury Volume (avg monthly):** QAR 1.45B
+- **Digital Transaction Share:** 82%
+- **Debt Service Coverage Ratio:** 2.4x (covenant >1.8x)
+- **Debt/EBITDA:** 2.9x (covenant <4.0x)
+- **Interest Coverage:** 7.3x
+- **Covenant Status:** All covenants compliant ✅
+
+### Recent Financial Transactions
+| Date       | Description                     | Amount   | Type   | Channel   |
+|------------|---------------------------------|----------|--------|-----------|
+| 2025-11-08 | LNG export proceeds             | QAR 510M | Credit | SWIFT     |
+| 2025-11-08 | Brent/LNG hedge settlement      | QAR 42M  | Debit  | Treasury  |
+| 2025-11-07 | EPC Project LC settlement       | QAR 120M | Debit  | Trade     |
+| 2025-11-07 | USD→QAR treasury conversion     | QAR 180M | Credit | Treasury  |
+| 2025-11-06 | Global payroll run              | QAR 26M  | Debit  | API/Bulk  |
+
+### Credit, Trade & Loan Exposure
+- **Loan Sanctioned:** QAR 4.2B
+- **Availed:** QAR 3.6B
+- **Outstanding:** QAR 3.0B
+- **Loan End Date:** 2033
+- **Interest:** QMRLR + 185 bps
+- **Next Installment:** QAR 60M (Jan 2026)
+- **Repayment:** Quarterly
+- **Status:** On-track
+- **Collateral:** LNG facilities + export receivables charge
+- **LC/BG Active Limit:** QAR 1.1B | Utilized: QAR 665M (60%)
+- **LC Avg Tenor:** 120–270 days
+- **Facility Type:** Term Loan (QAR 3.0B) + Revolving Credit Facility (QAR 1.2B)
+
+### Card Program
+- **Corporate Limit:** QAR 4.0M | Utilized: 58%
+- **Card Products:** Executive corporate & offshore project cards
+- **Usage Pattern:** Travel & project operations
+
+### Client Outlook & Strategy
+- **Strategic Priorities:** Transition financing, digital treasury modernization, trading expansion
+- **Expansion:** +2 LNG trains by 2027, 3 GW solar by 2030
+- **ESG Focus:** Net-Zero 2050 roadmap
+- **Bank Competitors:** HSBC (trade), Citi (global treasury)
+- **Market Wallet Share:** QNB 61% | HSBC 22% | Citi 17%
+
+### Cross-Sell & Upsell Strategy
+- **Core Opportunities:** Transition & green financing, ESG-linked RCF, Commodity hedge advisory suite
+- **Upsell Options:** API treasury automation, Carbon market advisory
+- **Next Action:** ESG + hedging bundle pitch
+
+### Revenue to Bank
+- **Estimated Wallet Share:** 61%
+- **Annual Income to Bank:** QAR 87M
+| Component             | Income    |
+|-----------------------|-----------|
+| Interest Income       | QAR 62M   |
+| FX Income             | QAR 19M   |
+| Commission / LC Fees  | QAR 6M    |
+
+### Risk, Compliance & AI Scoring
+- **KYC Due:** 10-Feb-2026
+- **Last Credit Review:** Oct-2025
+- **FATCA / CRS:** Compliant
+- **AI Health Score:** 91/100
+- **AI Opportunity Score:** 85%
+- **AI Exit Risk:** Low (9%)
+
+### Operational Context
+- **Export Markets:** 11 countries
+- **Employees:** 15,800
+- **Major Sites:** Ras Laffan, Dukhan
+- **Subsidiaries:** QEnergia LNG, QEnergia Power Generation, QEnergia Renewables, QEnergia Trading & Shipping, QEnergia Services
+
+---
+
+## QLogistics Group
+
+### Client Master & Relationship Summary
+- **Client Name:** QLogistics Group
+- **Industry & Sector:** Logistics, Freight Forwarding, Warehousing, Customs Brokerage
+- **Country of Incorporation:** Qatar
+- **Global Presence:** GCC, Turkey, India, Singapore, UK
+- **Ownership Type:** Privately Held Logistics & Supply Chain Group
+- **Relationship Segment:** Corporate Banking
+- **Client Tier:** Platinum (Strategic Client)
+- **Relationship Start Date:** Mar-2017
+- **Group Structure:** Freight forwarding, contract logistics, warehousing, etc.
+- **Corporate Structure Type:** Holding Company
+- **Client Profitability Tier:** High
+- **CRM Reference ID:** QBG-CLT-0058
+
+### Key Contacts & Preferences
+- **RM:** Yousef Al-Hamad | Phone: +974-5584-9921 | Approval limit: QAR 40M
+- **Backup RM:** Sara Mohammed | Phone: +974-5567-2232 | Approval limit: QAR 8M
+- **Treasury Head:** Ravi Krishnan | Phone: +974-5583-4432 | treasury@qlogistics.qa
+- **CFO:** Amin Al-Kuwari | Phone: +974-5578-8921 | finance@qlogistics.qa
+- **Finance AP Team:** accounts@qlogistics.qa
+- **Preferred Communication:** Email + RM visits; urgent via phone
+- **Preferred Meeting Time:** Weekdays 9AM–1PM
+- **Visit Frequency:** Quarterly business review
+
+### Financial Overview & Ratios
+- **Annual Revenue:** QAR 2.9B
+- **Operating Profit:** QAR 325M
+- **Operating Margin:** 11.2%
+- **EBITDA Margin:** 15.1%
+- **Cash Flow Stability:** Strong (contract-based revenue)
+- **Liquidity Score:** Strong
+- **Deposits:** QAR 280M (QAR 96M in Ops Account)
+- **Treasury Volume (avg monthly):** ~QAR 95M
+- **Digital Transaction Share:** 87%
+- **Debt/EBITDA:** 2.3x
+- **Debt Service Coverage Ratio:** 2.6x
+- **Interest Coverage:** 4.2x
+- **Covenant Status:** Compliant ✅
+
+### Recent Financial Transactions
+| Date       | Transaction                 | Amount   | Type   | Channel   |
+|------------|-----------------------------|----------|--------|-----------|
+| 08-Nov-2025| Freight receivable sweep    | QAR 18.4M| Credit | H2H       |
+| 08-Nov-2025| Fleet lease payment         | QAR 3.2M | Debit  | ACH       |
+| 07-Nov-2025| FX conversion (USD→QAR)     | QAR 5.8M | Credit | Treasury  |
+| 07-Nov-2025| Warehouse rental receipts   | QAR 6.9M | Credit | API       |
+| 06-Nov-2025| Payroll disbursement        | QAR 5.4M | Debit  | Bulk/HRMS |
+
+### Credit, Trade & Loan Exposure
+- **Loan Sanctioned:** QAR 780M
+- **Availed:** QAR 615M
+- **Outstanding:** QAR 495M
+- **Loan End Date:** 2031
+- **Interest:** QMRLR + 215 bps
+- **Next Installment:** QAR 4.8M (Jan-2026)
+- **Repayment:** Quarterly
+- **Collateral:** Fleet charge, warehouse mortgage, receivables assignment
+- **LC/BG Limit:** QAR 320M | Utilized: QAR 195M (61%)
+- **LC Tenor:** 30–120 days
+- **Facility Type:** Term Loan (QAR 280M) + Revolving WC (QAR 500M)
+
+### Card Program
+- **Corporate Limit:** QAR 1.1M | Utilized 62%
+- **Usage Pattern:** Fuel, travel, fleet O&M, logistics operations
+
+### Client Outlook & Strategy
+- **Strategic Priorities:** GCC & India route expansion, pharma-cold chain, e-com last-mile
+- **Infrastructure Plans:** New bonded warehouse & micro-fulfillment centers
+- **ESG Focus:** EV delivery pilot, solar-powered warehouses
+- **Key Partners:** Maersk, DHL, Aramex
+
+### Cross-Sell & Upsell Strategy
+- **Core Opportunities:** Fleet lease program, API-based receivables finance, USD risk management
+- **Upsell Options:** Customs duty finance line, Digital fuel & fleet card program
+- **Next Action:** Structured fleet + duty-finance bundle proposal
+
+### Revenue to Bank
+- **Estimated Wallet Share:** 59%
+- **Annual Income to Bank:** ~QAR 26M
+| Component                | Income     |
+|--------------------------|------------|
+| Interest                 | QAR 14.8M  |
+| FX                       | QAR 3.3M   |
+| Trade                    | QAR 3.1M   |
+| Cash Management & Digital| QAR 4.8M   |
+
+### Risk, Compliance & AI Scoring
+- **KYC Due:** 18-Mar-2026
+- **Last Credit Review:** Sep-2025
+- **FATCA/CRS:** Compliant
+- **AI Health Score:** 92/100
+- **AI Opportunity Score:** 84%
+- **AI Exit Risk:** Low (8%)
+
+### Operational Context
+- **Import/Export Hubs:** Jebel Ali, Mumbai, Istanbul, Singapore
+- **Fleet Size:** 1,850+ vehicles
+- **Warehousing:** 1.2M sq ft
+- **Employees:** 5,200
+- **Subsidiaries:** QLogistics Freight & Forwarding, QLogistics Warehousing & Cold Chain, QLogistics E-Com Fulfillment, QLogistics Fleet & Leasing
+
+---
+
+## QRetail Group
+
+### Client Master & Relationship Summary
+- **Client Name:** QRetail Group
+- **Industry & Sector:** Retail, Mall Operations, E-Commerce, F&B
+- **Country of Incorporation:** Qatar
+- **Global Presence:** GCC, Turkey, India, UK
+- **Ownership Type:** Privately Held Retail Conglomerate
+- **Relationship Segment:** Corporate Banking
+- **Client Tier:** Platinum (Strategic Client)
+- **Relationship Start Date:** Jun-2018
+- **Group Structure:** Retail, malls, logistics, e-commerce, F&B subsidiaries
+- **Corporate Structure Type:** Parent
+- **Client Profitability Tier:** High
+- **CRM Reference ID:** QBG-CLT-0045
+
+### Key Contacts & Preferences
+- **RM:** Ahmed Al-Saadi | Phone: +974-5587-9011 | Approval limit: QAR 50M
+- **Backup RM:** Fatima Hassan | Phone: +974-5598-7720 | Approval limit: QAR 10M
+- **Treasury Director:** Mohammad Rashid | Phone: +974-5588-6612 | treasury@qretail.qa
+- **CFO:** Khalid Al-Thani | Phone: +974-5574-6630 | finance@qretail.qa
+- **Finance Team:** accounts@qretail.qa
+- **Preferred Communication:** Email + RM visits; urgent via phone
+- **Preferred Meeting Time:** Weekdays 10AM–2PM
+- **Visit Frequency:** Quarterly strategic review
+
+### Financial Overview & Ratios
+- **Annual Revenue:** QAR 4.2B
+- **Operating Profit:** QAR 480M
+- **Operating Margin:** 11.4%
+- **EBITDA Margin:** 14.2%
+- **Cash Flow Stability:** Strong, recurring mall revenue
+- **Liquidity Score:** Strong
+- **Deposits:** QAR 365M (QAR 110M in Op AC)
+- **Treasury Volume (avg monthly):** ~QAR 80M
+- **Digital Transaction Share:** 89%
+- **Debt/EBITDA:** 2.1x
+- **Debt Service Coverage Ratio:** 2.5x
+- **Interest Coverage:** 4.7x
+- **Covenant Status:** All covenants compliant ✅
+
+### Recent Financial Transactions
+| Date       | Description                     | Amount   | Type   | Channel       |
+|------------|---------------------------------|----------|--------|---------------|
+| 08-Nov-2025| POS settlement sweep            | QAR 26M  | Credit | Host-to-Host  |
+| 08-Nov-2025| Supplier import LC retirement   | QAR 18M  | Debit  | Trade         |
+| 07-Nov-2025| E-commerce collection settlement| QAR 14M  | Credit | API           |
+| 07-Nov-2025| USD→QAR FX Conversion           | QAR 8M   | Credit | Treasury      |
+| 06-Nov-2025| Monthly payroll                 | QAR 9.6M | Debit  | Bulk/HR API   |
+
+### Credit, Trade & Loan Exposure
+- **Loan Sanctioned:** QAR 950M
+- **Availed:** QAR 710M
+- **Outstanding:** QAR 570M
+- **Loan End Date:** 2030
+- **Interest:** QMRLR + 225 bps
+- **Next Installment:** QAR 5.4M (Jan-2026)
+- **Repayment:** Quarterly
+- **Collateral:** Malls, receivables assignment, inventory charge
+- **LC/BG Limits:** QAR 450M | Utilized: QAR 260M (58%)
+- **LC Tenor:** 30–90 days
+- **Facility Type:** Term Loan (QAR 350M) + Revolving WC (QAR 600M)
+
+### Card Program
+- **Corporate Limit:** QAR 1.4M | Utilized: 64%
+- **Card Products:** Executive & procurement cards
+- **Usage Pattern:** Travel, procurement, mall events ops
+
+### Client Outlook & Strategy
+- **Strategic Priorities:** Supply chain efficiency, digital payments, loyalty analytics
+- **Expansion:** +12 stores, +1 mall by 2027
+- **ESG Focus:** Solar-powered warehouses, efficient cooling for malls
+- **Bank Competitors:** LuLu, Carrefour, Al-Meera, Landmark Group
+
+### Cross-Sell & Upsell Strategy
+- **Core Opportunities:** Supply chain financing, Duty-free remittance partnership, FX booking automation
+- **Upsell Options:** Mall-tenant financing program, Co-branded cards / loyalty fintech
+- **Next Action:** E-com marketplace escrow + QRail BNPL partner proposal
+
+### Revenue to Bank
+- **Wallet Share:** 63%
+- **Annual Income to Bank:** ~QAR 34M
+| Component                | Income    |
+|--------------------------|-----------|
+| Interest                 | QAR 19M   |
+| FX                       | QAR 4.2M  |
+| Trade & LC               | QAR 2.8M  |
+| Cash Management & Digital| QAR 8M    |
+
+### Risk, Compliance & AI Scoring
+- **KYC Due:** 10-Feb-2026
+- **Last Credit Review:** Oct-2025
+- **FATCA/CRS:** Compliant
+- **AI Health Score:** 93/100
+- **AI Opportunity Score:** 88%
+- **AI Exit Risk:** Low (7%)
+
+### Operational Context
+- **Import Markets:** China, India, Turkey, UAE
+- **Employees:** 7,800
+- **Key Sites:** Doha Festival City HQ, Lusail Mall, Warehouse-QEZ
+- **E-Commerce Share:** 21% & growing
+- **Subsidiaries:** QRetail Malls, QRetail Supermarkets, QRetail E-Commerce, QRetail Logistics & Warehousing, QRetail F&B & Franchise

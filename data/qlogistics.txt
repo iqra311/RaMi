@@ -1,0 +1,410 @@
+QLogistics Group – Relationship Manager Knowledge Base (Master) 
+
+Client Master & Relationship Summary 
+
+Client Name: QLogistics Group 
+Industry & Sector: Logistics, Freight Forwarding, Warehousing, Customs Brokerage, Fleet & Cold Chain 
+Country of Incorporation: Qatar 
+Global Presence: GCC, Turkey, India, Singapore, UK 
+Ownership Type: Privately Held Logistics & Supply Chain Group 
+Relationship Segment: Corporate Banking 
+Client Tier: Platinum (Strategic Client) 
+Relationship Start Date: Mar-2017 
+Group Structure: Freight forwarding, contract logistics, warehousing, cargo services, cold chain, e-commerce logistics 
+Corporate Structure Type: Holding Company 
+Client Profitability Tier: High 
+
+Shape 
+
+Contacts 
+
+RM: Yousef Al-Hamad | +974-5584-9921 | Limit QAR 40M 
+Backup RM: Sara Mohammed | +974-5567-2232 | Limit QAR 8M 
+Treasury Head: Ravi Krishnan | +974-5583-4432 | treasury@qlogistics.qa 
+CFO: Amin Al-Kuwari | +974-5578-8921 | finance@qlogistics.qa 
+Finance AP: accounts@qlogistics.qa 
+
+Preferred Channel: Email + RM visits | urgent via phone 
+Meeting Time: Weekdays 9AM–1PM 
+Review Frequency: Quarterly business review 
+CRM ID: QBG-CLT-0058 
+
+Shape 
+
+Financial Overview & Ratios 
+
+Metric 
+
+Value 
+
+Annual Revenue 
+
+QAR 2.9B 
+
+Operating Profit 
+
+QAR 325M 
+
+Operating Margin 
+
+11.2% 
+
+EBITDA Margin 
+
+15.1% 
+
+Cash Flow Stability 
+
+Strong (contract-based revenue) 
+
+Liquidity Score 
+
+Strong 
+
+Deposits 
+
+QAR 280M 
+
+Breakdown 
+
+QAR 96M Ops 
+
+Treasury Volume 
+
+~QAR 95M/month (payments + FX) 
+
+Digital Transaction Share 
+
+87% 
+
+Debt/EBITDA 
+
+2.3x 
+
+DSCR 
+
+2.6x 
+
+Interest Coverage 
+
+4.2x 
+
+Covenant Status 
+
+✅ Compliant 
+
+Shape 
+
+Recent Financial Transactions (Last 5) 
+
+Date 
+
+Transaction 
+
+Amount 
+
+Type 
+
+Channel 
+
+08-Nov-2025 
+
+Freight receivable sweep 
+
+QAR 18.4M 
+
+Credit 
+
+H2H 
+
+08-Nov-2025 
+
+Fleet lease payment 
+
+QAR 3.2M 
+
+Debit 
+
+ACH 
+
+07-Nov-2025 
+
+FX conversion (USD→QAR) 
+
+QAR 5.8M 
+
+Credit 
+
+Treasury 
+
+07-Nov-2025 
+
+Warehouse rental receipts 
+
+QAR 6.9M 
+
+Credit 
+
+API 
+
+06-Nov-2025 
+
+Payroll disbursement 
+
+QAR 5.4M 
+
+Debit 
+
+Bulk/HRMS 
+
+Shape 
+
+Credit & Trade Exposure 
+
+Loan Sanctioned: QAR 780M 
+Availed: QAR 615M 
+Repaid: QAR 120M 
+Outstanding: QAR 495M 
+Loan End Date: 2031 
+Interest: QMRLR + 215 bps 
+Next Installment: QAR 4.8M (Jan-2026) 
+Repayment: Quarterly 
+Collateral: Fleet charge, warehouse mortgage, receivables assignment 
+LC/BG Limit: QAR 320M | Utilized: QAR 195M (61%) 
+LC Tenor: 30–120 days (shipping, customs, fleet imports) 
+
+Shape 
+
+Card Program 
+
+Corporate Limit: QAR 1.1M | Utilized 62% 
+Usage: Fuel, travel, fleet O&M, logistics operations 
+
+Shape 
+
+Loan Facility Details 
+
+Term Loan: QAR 280M (new cold chain hub + fleet expansion) 
+Revolving WC: QAR 500M (seasonal freight + cross-border volumes) 
+Disbursement: Apr-2023 
+Reset Frequency: Quarterly 
+
+ 
+
+Treasury & Hedging Profile 
+
+FX Spread: 4–9 bps (Asia & Europe freight exposure) 
+Hedging: USD, EUR cost hedge for global carriers 
+Preferred Instruments: Forward FX 
+Treasury API: Connected (ERP, vendor payouts, collections) 
+
+ 
+
+Client Outlook & Strategy 
+
+Expansion Focus: GCC & India routes, pharma-cold chain, e-com last-mile 
+Infrastructure: New bonded warehouse & micro-fulfillment centers 
+Digital: AI-enabled route optimization & TMS/WMS upgrades 
+Sustainability: EV delivery pilot, solar-powered warehouses 
+Key Partners: Maersk, DHL, Aramex (competitors & collaborators) 
+
+ 
+
+Relationship History & Insights 
+
+Relationship Tenure: 8+ years 
+Last RM Meeting: 06-Nov-2025 – FX & working capital review 
+Previous Meeting: 28-Oct-2025 – Fleet lease optimization 
+RM Sentiment: Strong, steady wallet share growth 
+Pain Points: Fuel volatility, seasonal freight cycles, FX exposure 
+Service Tickets (90 days): 3 resolved 
+Client Feedback Score: 9.3/10 
+
+ 
+
+Cross-Sell & Upsell Strategy 
+
+Fleet lease program (bank JV model) 
+
+API-based receivables finance 
+
+USD risk management automation 
+
+Customs duty finance line 
+
+Digital fuel & fleet card program 
+
+Next RM Action: Structured fleet + duty-finance bundle proposal 
+
+ 
+
+Revenue to Bank 
+
+Estimated Wallet Share: 59% 
+Annual Bank Income: ~QAR 26M 
+
+Component 
+
+Income 
+
+Interest 
+
+QAR 14.8M 
+
+FX 
+
+QAR 3.3M 
+
+Trade 
+
+QAR 3.1M 
+
+Cash Mgmt & Digital 
+
+QAR 4.8M 
+
+ 
+
+Risk & Compliance 
+
+KYC Due: 18-Mar-2026 
+Last Credit Review: Sep-2025 | Next: Sep-2026 
+FATCA/CRS: Compliant 
+BO Structure: Family holding with mgmt control 
+Next-Cycle Docs: FY2025 FS, UBO, updated BR 
+
+ 
+
+Banking Operations 
+
+ERP: Oracle + SAP TMS 
+Cash Sweep: Daily @ 3:30PM | Target QAR 18M 
+Cut-off: QAR 1PM | USD 2:30PM 
+
+ 
+
+AI Scoring 
+
+Category 
+
+Score 
+
+Health 
+
+92/100 
+
+Opportunity 
+
+84% 
+
+Exit Risk 
+
+Low (8%) 
+
+Propensity 
+
+Fleet finance + FX + receivables finance 
+
+ 
+
+Alerts & Signals 
+
+⚠️ Term Deposit maturity 15-Jan-2026 
+📦 Peak freight cycle prep – Feb-Mar 
+❄️ Pharma cold-chain scaling 
+
+ 
+
+Banking Products & Channels 
+
+Working capital + fleet term loans 
+
+FX & trade finance 
+
+Bank guarantees (customs, shipping) 
+
+Payroll, vendor payments, API collections 
+
+Corporate & fleet cards 
+
+ 
+
+Operational Context 
+
+Import/Export Hubs: Jebel Ali, Mumbai, Istanbul, Singapore 
+Fleet Size: 1,850+ vehicles (incl. cold chain) 
+Warehousing: 1.2M sq ft (3 DCs) 
+Employees: 5,200 
+
+ 
+
+Risk & Hedge Summary 
+
+FX Hedges: USD/EUR freight contracts 
+Hedge Ratio: ~58% 
+MTM: +QAR 6.8M 
+
+ 
+
+Subsidiaries 
+
+QLogistics Freight & Forwarding – QAR 1.6B 
+
+QLogistics Warehousing & Cold Chain – QAR 700M 
+
+QLogistics E-Com Fulfillment – QAR 420M 
+
+QLogistics Fleet & Leasing – QAR 180M 
+
+ 
+
+CRM Tags 
+
+#Logistics #FreightForwarding #Warehousing #ColdChain #HighValue #FXExposure 
+
+ 
+
+Gen-AI Pitch Book Notes 
+
+3-Line Intro 
+QLogistics is a leading GCC logistics and warehousing group with strong cross-border freight capability, cold-chain expertise, and integrated technology platforms. Powered by multiyear logistics contracts, API-based collections, and ERP-driven treasury, the group is scaling regionally and digitizing its supply chain backbone. 
+
+Pitch Angles 
+
+Receivables + duty finance 
+
+Dynamic fleet leasing & EV fleet program 
+
+FX hedging for global freight payments 
+
+AI-enabled supply chain visibility & route optimization 
+
+E-com fulfillment automation + cash-on-delivery digitization 
+
+ 
+
+Escalation Matrix 
+
+Service: RM → Backup RM → Branch Manager 
+Credit: RM → Credit Manager → Corporate Head 
+Treasury: RM → Treasury Head 
+
+ 
+
+Documents 
+
+Audited FS FY24: On file (Apr-2025) 
+BR: Valid 
+KYC Docs: Valid till Mar-2026 
+Credit Approval: Sep-2025 
+
+ 
+
+KB Governance 
+
+Version: 1.0 
+Last Updated: 08-Nov-2025 
+Refresh: Quarterly 
+Next: Jan-2026 
+
+ 
