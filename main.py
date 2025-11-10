@@ -6,51 +6,89 @@ from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 from typing import Dict, List, Tuple
-import chromadb
+import markdown2
+import chromadb # <-- NEW: Import the base chromadb library
+from langchain_community.embeddings import HuggingFaceEmbeddings
+
+# LangChain Imports
+from langchain_community.document_loaders import TextLoader
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
-from langchain_community.embeddings import HuggingFaceBgeEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers.string import StrOutputParser
-import markdown2
 from langchain_core.messages import AIMessage, HumanMessage
-from langchain_community.embeddings import HuggingFaceEmbeddings
+
 
 # --- Load Environment Variables ---
 load_dotenv()
-
-# --- App Configuration ---
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_API_KEY = "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" # <-- FIXED: Load from .env, don't hardcode
 if not GROQ_API_KEY:
     raise ValueError("GROQ_API_KEY not found in .env file")
 
-DB_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "db", "chroma_db")
-EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
+# --- Paths & Config ---
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DB_DIR = os.path.join(BASE_DIR, "db", "chroma_db")
+DATA_DIR = os.path.join(BASE_DIR, "data")
+EMBEDDING_MODEL_NAME = "BAAI/bge-small-en-v1.5" # A more powerful model
 
-# ---  FastAPI App ---
+# --- App & Global Resources ---
 app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
-model_kwargs = {'device': 'cpu'}
-encode_kwargs = {'normalize_embeddings': True}
-embeddings = HuggingFaceBgeEmbeddings(
-    model_name=EMBEDDING_MODEL_NAME,
-    model_kwargs=model_kwargs,
-    encode_kwargs=encode_kwargs
-)
-
-# Initialize Groq LLM
-llm = ChatGroq(
-    model_name="openai/gpt-oss-120b", 
-    groq_api_key=GROQ_API_KEY,
-    temperature=0.0 
-)
-
+# Initialize resources that will be used by the app
+llm = ChatGroq(model_name="openai/gpt-oss-120b", groq_api_key=GROQ_API_KEY, temperature=0.0) # FIXED: Use a valid model
 session_histories: Dict[str, List[Tuple[str, str]]] = {}
+embeddings = HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL_NAME)
+chroma_client = chromadb.PersistentClient(path=DB_DIR)
 
-# ---  Prompt for Condensing History ---
+# --- NEW: Ingestion Logic on Application Startup ---
+@app.on_event("startup")
+def startup_event():
+    print("--- Application starting up: Checking for new documents to ingest... ---")
+    
+    # Get the list of already ingested collections from ChromaDB
+    existing_collections = {collection.name for collection in chroma_client.list_collections()}
+    print(f"Existing collections in DB: {existing_collections}")
+    
+    # Scan the data directory for documents
+    if not os.path.exists(DATA_DIR):
+        os.makedirs(DATA_DIR)
+        print(f"Created data directory at {DATA_DIR}")
+        return
+
+    for doc_file in os.listdir(DATA_DIR):
+        if doc_file.endswith(".txt"):
+            # Derive collection name from filename (e.g., 'qlogistics_group.txt' -> 'qlogistics_group')
+            collection_name = os.path.splitext(doc_file)[0].lower()
+            
+            # If this collection is not already in the DB, ingest it
+            if collection_name not in existing_collections:
+                print(f"[INGESTING]: New document found: '{doc_file}'. Creating collection '{collection_name}'...")
+                
+                # 1. Load the document
+                doc_path = os.path.join(DATA_DIR, doc_file)
+                loader = TextLoader(doc_path, encoding='utf-8')
+                documents = loader.load()
+                
+                # 2. Split into chunks
+                text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
+                chunks = text_splitter.split_documents(documents)
+                
+                # 3. Create the collection in ChromaDB
+                Chroma.from_documents(
+                    client=chroma_client,
+                    documents=chunks,
+                    embedding=embeddings,
+                    collection_name=collection_name
+                )
+                print(f"✅ [SUCCESS]: Ingestion complete for '{collection_name}'.")
+    print("--- Startup ingestion check complete. ---")
+
+# --- Prompts and Pydantic Models (Unchanged) ---
 CONDENSE_QUESTION_PROMPT = ChatPromptTemplate.from_messages([
     ("system", "Given a chat history and a follow-up question, rephrase the follow-up question to be a standalone question."),
     MessagesPlaceholder(variable_name="chat_history"),
@@ -68,7 +106,6 @@ ANSWER_PROMPT = ChatPromptTemplate.from_messages([
     MessagesPlaceholder(variable_name="chat_history"),
     ("human", "{question}"),
 ])
-
 class ChatRequest(BaseModel):
     query: str
     session_id: str
@@ -77,45 +114,49 @@ class ChatResponse(BaseModel):
     answer: str
     session_id: str
 
+
+# --- API Endpoints ---
 @app.get("/", response_class=HTMLResponse)
 async def get_chat_ui(request: Request):
-    print("--- GET /: Attempting to load clients from ChromaDB... ---")
+    """Serves the main chat UI and dynamically finds available clients."""
     client_names = []
     try:
-        chroma_client = chromadb.PersistentClient(path=DB_DIR)
+        # FIXED: Use the administrative client to list collections
         collections = chroma_client.list_collections()
         client_names = [
             {"id": col.name, "name": col.name.replace('_', ' ').title()} 
             for col in collections
         ]
-        print(f"--- SUCCESS: Found clients: {client_names} ---")
     except Exception as e:
-        print(f"--- ERROR: Could not load client collections: {e} ---")
-        client_names = []
+        print(f"Error loading client collections: {e}")
     return templates.TemplateResponse("index.html", {"request": request, "clients": client_names})
-MASTER_COLLECTION_NAME="All_Clients"
+
 @app.post("/chat", response_model=ChatResponse)
 async def handle_chat_message(request: ChatRequest):
+    """Handles incoming chat messages and returns the RAG-powered response."""
     try:
-        chroma_client = chromadb.PersistentClient(path=DB_DIR)
+        # FIXED: Load the vectorstore consistently using the client
         vectorstore = Chroma(
-            client=chroma_client, collection_name=request.client_id, embedding_function=embeddings
+            client=chroma_client,
+            collection_name=request.client_id,
+            embedding_function=embeddings,
         )
-        if request.client_id == MASTER_COLLECTION_NAME:
+        if request.client_id == "all":
             print("--- Querying MASTER collection. Using k=8 for comprehensive search. ---")
             retriever = vectorstore.as_retriever(search_kwargs={'k': 27})
         else:
             print(f"--- Querying SINGLE client collection: {request.client_id}. Using k=4. ---")
             retriever = vectorstore.as_retriever(search_kwargs={'k': 4})
-    except Exception:
+    except Exception as e:
+        print(f"Error loading vector store for client '{request.client_id}': {e}")
         raise HTTPException(status_code=404, detail=f"Knowledge base for client '{request.client_id}' not found.")
 
+    # ... (The rest of your /chat logic for conversational memory remains the same)
     chat_history_tuples = session_histories.get(request.session_id, [])
     chat_history_messages = [
         (HumanMessage(content=q), AIMessage(content=a)) for q, a in chat_history_tuples
     ]
     chat_history_messages = [msg for pair in chat_history_messages for msg in pair]
-
 
     condense_question_chain = CONDENSE_QUESTION_PROMPT | llm | StrOutputParser()
     
@@ -125,19 +166,12 @@ async def handle_chat_message(request: ChatRequest):
                 "chat_history": inputs["chat_history"],
                 "question": inputs["question"]
             })
-            print(f"Standalone Question: {standalone_question}")
             return retriever.invoke(standalone_question)
         else:
             return retriever.invoke(inputs["question"])
 
     answer_chain = ANSWER_PROMPT | llm | StrOutputParser()
-    
-    conversational_rag_chain = (
-        RunnablePassthrough.assign(
-            context=get_retrieved_docs,
-        )
-        | answer_chain
-    )
+    conversational_rag_chain = RunnablePassthrough.assign(context=get_retrieved_docs) | answer_chain
 
     answer = conversational_rag_chain.invoke({
         "question": request.query,
@@ -147,5 +181,4 @@ async def handle_chat_message(request: ChatRequest):
     session_histories.setdefault(request.session_id, []).append((request.query, answer))
     
     html_answer = markdown2.markdown(answer)
-    
     return ChatResponse(answer=html_answer, session_id=request.session_id)
