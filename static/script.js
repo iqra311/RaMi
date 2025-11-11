@@ -6,18 +6,47 @@ document.addEventListener('DOMContentLoaded', () => {
     const clientSelector = document.getElementById('client-selector');
     const sessionIdSpan = document.getElementById('session-id');
     const refreshButton = document.getElementById('refresh-button');
+    const languageToggle = document.getElementById('language-toggle'); 
+
 
     let currentSessionId;
-
+    let currentLanguage = 'en';
+    function updateUIText() {
+        if (currentLanguage === 'en') {
+            document.documentElement.lang = 'en';
+            document.documentElement.dir = 'ltr';
+            document.querySelector('label[for="client-selector"]').textContent = 'Select Client:';
+            userInput.placeholder = 'Ask a question...';
+            sendButton.textContent = 'Send';
+        } else {
+            document.documentElement.lang = 'ar';
+            document.documentElement.dir = 'rtl';
+            document.querySelector('label[for="client-selector"]').textContent = 'اختر العميل:';
+            userInput.placeholder = 'اطرح سؤالاً...';
+            sendButton.textContent = 'إرسال';
+        }
+    }
     function startNewSession() {
         currentSessionId = `session_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
         sessionIdSpan.textContent = currentSessionId;
         chatBox.innerHTML = '';
-        appendMessage("Hello! I'm your Relationship Manager assistant. Please select a client and ask me a question about them.", 'bot-message', false);
+        
+        const welcomeMessage = currentLanguage === 'en'
+            ? "Hello! I'm your Relationship Manager assistant. Please select a client and ask me a question about them."
+            : "مرحباً! أنا مساعد مدير العلاقات الخاص بك. يرجى اختيار عميل وطرح سؤالك عنه.";
+        appendMessage(welcomeMessage, 'bot-message', false);
+        
         console.log("New session started:", currentSessionId);
     }
 
     refreshButton.addEventListener('click', startNewSession);
+
+    languageToggle.addEventListener('change', () => {
+        currentLanguage = languageToggle.checked ? 'ar' : 'en';
+        console.log(`Language changed to: ${currentLanguage}`);
+        updateUIText();
+        startNewSession(); 
+    });
 
     chatForm.addEventListener('submit', async (e) => {
         e.preventDefault();
@@ -26,7 +55,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const clientId = clientSelector.value;
         if (!clientId) {
-            alert("Please select a client first.");
+            const alertMessage = currentLanguage === 'en' ? "Please select a client first." : "يرجى اختيار عميل أولاً.";
+            alert(alertMessage);
             return;
         }
 
@@ -43,9 +73,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 body: JSON.stringify({ 
                     query: query,
                     session_id: currentSessionId,
-                    client_id: clientId 
+                    client_id: clientId,
+                    language: currentLanguage 
                 }),
             });
+
 
             if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
             
@@ -152,4 +184,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     startNewSession();
+    updateUIText();
+
 });
