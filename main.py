@@ -23,11 +23,10 @@ from langchain_core.messages import AIMessage, HumanMessage
 
 # --- Load Environment Variables ---
 load_dotenv()
-GROQ_API_KEY = "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" 
+GROQ_API_KEY = os.environ.get("KEY")
 if not GROQ_API_KEY:
     raise ValueError("GROQ_API_KEY not found in .env file")
 
-# --- Paths & Config ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DB_DIR = os.path.join(BASE_DIR, "db", "chroma_db")
 DATA_DIR = os.path.join(BASE_DIR, "data")
@@ -81,14 +80,12 @@ def startup_event():
     print("--- Startup ingestion check complete. ---")
 
 
-# ---  Prompt for Condensing History ---
 CONDENSE_QUESTION_PROMPT = ChatPromptTemplate.from_messages([
     ("system", "Given a chat history and a follow-up question, rephrase the follow-up question to be a standalone question."),
     MessagesPlaceholder(variable_name="chat_history"),
     ("human", "{question}"),
 ])
 
-# --- Prompt for Answering ---
 ANSWER_PROMPT = ChatPromptTemplate.from_messages([
     ("system", "You are a professional Relationship Manager's assistant. Your name is RaMi which stands for relantionship manager and AI, Your task is to answer the user's question based *only* on the provided context.\n"
                "Respond to greetings in friendly tone. \n"
@@ -110,7 +107,6 @@ class ChatResponse(BaseModel):
     session_id: str
 
 
-# --- API Endpoints ---
 @app.get("/", response_class=HTMLResponse)
 async def get_chat_ui(request: Request):
     """Serves the main chat UI and dynamically finds available clients."""
